@@ -2,6 +2,7 @@
 <html>
   <head>
     <link rel="stylesheet" type="text/css" href="pokemon.css" />
+    <script src="./pokemon.js"></script>
     <title>pokemonCard</title>
   </head>
   <body>
@@ -12,6 +13,7 @@
           id="searchBar"
           name="search"
           placeholder="search"
+          onkeypress="searchPok()"
         />
       </div>
     </div>
@@ -47,5 +49,11 @@
         </div>
       </div>
     </div>
+    <script>
+      (function() {
+        const container = document.getElementsByClassName("container");
+        container[0].style.height = screen.height + "px";
+      })();
+    </script>
   </body>
 </html>
