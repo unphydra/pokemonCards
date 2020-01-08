@@ -1,18 +1,19 @@
-.cards {
-  align-content: center;
-  height: 280px;
-  width: 230px;
-  text-align: center;
-  border: 2px solid rgba(80, 80, 80, 0.2);
-  border-radius: 8px;
-  margin-bottom: 20px;
-}
-
 .container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   font-family: sans-serif;
+}
+
+.cards {
+  align-content: center;
+  height: 300px;
+  width: 230px;
+  text-align: center;
+  border: 2px solid rgba(80, 80, 80, 0.2);
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 2px 2px 5px 0.3px rgba(80, 80, 80, 0.2);
 }
 
 .cards h4 {
@@ -21,6 +22,10 @@
   padding-top: 10px;
   padding-bottom: 10px;
   color: rgba(0, 0, 0, 0.5);
+  background-image: linear-gradient(
+    rgba(230, 230, 230, 0.5),
+    rgba(140, 140, 140, 0.2)
+  );
 }
 
 .contents {
@@ -34,13 +39,15 @@
   transition: 1s ease;
   position: absolute;
   opacity: 0;
-  top: 25%;
+  top: 30%;
   left: auto;
 }
 
 .desc_text {
   font-size: 10px;
   color: rgba(82, 72, 72, 0.767);
+  text-align: justify;
+  line-height: 12px;
 }
 
 .pokImage {
