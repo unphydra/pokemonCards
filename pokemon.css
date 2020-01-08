@@ -1,3 +1,9 @@
+.heading {
+  height: 100px;
+  border-bottom: 2px solid rgba(200, 200, 200, 0.2);
+  box-shadow: 0px 0px 5px 0.3px rgba(80, 80, 80, 0.5);
+}
+
 .cardsDisplay {
   background-image: url("https://assets.pokemon.com/static2/_ui/img/chrome/container_bg.png");
 }
@@ -18,13 +24,14 @@
 }
 
 .cards {
+  margin-top: 10px;
+  margin-bottom: 10px;
   align-content: center;
   height: 300px;
   width: 230px;
   text-align: center;
   border: 2px solid rgba(80, 80, 80, 0.2);
   border-radius: 8px;
-  margin-bottom: 20px;
   box-shadow: 2px 2px 5px 0.3px rgba(80, 80, 80, 0.2);
   background-color: white;
 }
