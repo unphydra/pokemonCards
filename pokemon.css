@@ -1,9 +1,10 @@
 .heading {
-  height: 100px;
+  /* height: 40px; */
   border-bottom: 2px solid rgba(200, 200, 200, 0.2);
   box-shadow: 0px 0px 5px 0.3px rgba(80, 80, 80, 0.5);
-  text-align: right;
-  padding-top: 10px;
+  padding-top: 0px;
+  display: flex;
+  width: 100%;
 }
 
 .searchInp {
@@ -13,6 +14,28 @@
   outline: none;
   border: 2px solid rgba(80, 80, 80, 0.5);
   padding-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.topNav {
+  width: 90vw;
+  overflow: scroll;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.typeNav {
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+}
+
+.navTag{
+  margin: 0px;
+  width: auto;
+  font-size: 20px;
+  color: rgba(100, 100, 100, 0.7);
 }
 
 .cardsDisplay {
@@ -32,6 +55,7 @@
   font-family: sans-serif;
   width: 80%;
   background-color: white;
+  overflow: scroll;
 }
 
 .cards {
@@ -75,7 +99,7 @@
 }
 
 .desc_text {
-  font-size: 10px;
+  font-size: 12px;
   color: rgba(82, 72, 72, 0.767);
   text-align: justify;
   line-height: 12px;
@@ -87,7 +111,7 @@
 }
 
 .cards:hover {
-  background-color: rgb(248, 247, 247);
+  background-image:linear-gradient(to bottom right,rgba(256,0,0,0.3), rgba(256,256,0,0.5));
   cursor: pointer;
 }
 
@@ -106,4 +130,8 @@
 .typeImg {
   height: 30px;
   width: 30px;
+}
+
+.selected {
+  color:black;
 }

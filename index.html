@@ -7,6 +7,29 @@
   </head>
   <body>
     <div class="heading">
+      <div class="topNav">
+        <nav class="typeNav" id="nav-bar">
+          <div class="navTag"  onclick="navOnclick(this)">All</div>
+          <div class="navTag"  onclick="navOnclick(this)">Bug</div>
+          <div class="navTag"  onclick="navOnclick(this)">Dark</div>
+          <div class="navTag"  onclick="navOnclick(this)">Dragon</div>
+          <div class="navTag"  onclick="navOnclick(this)">Electric</div>
+          <div class="navTag"  onclick="navOnclick(this)">Fairy</div>
+          <div class="navTag"  onclick="navOnclick(this)">Fighting</div>
+          <div class="navTag"  onclick="navOnclick(this)">Fire</div>
+          <div class="navTag"  onclick="navOnclick(this)">Flying</div>
+          <div class="navTag"  onclick="navOnclick(this)">Ghost</div>
+          <div class="navTag"  onclick="navOnclick(this)">Grass</div>
+          <div class="navTag"  onclick="navOnclick(this)">Ground</div>
+          <div class="navTag"  onclick="navOnclick(this)">Ice</div>
+          <div class="navTag"  onclick="navOnclick(this)">Normal</div>
+          <div class="navTag"  onclick="navOnclick(this)">Poison</div>
+          <div class="navTag"  onclick="navOnclick(this)">Psychic</div>
+          <div class="navTag"  onclick="navOnclick(this)">Rock</div>
+          <div class="navTag"  onclick="navOnclick(this)">Steel</div>
+          <div class="navTag"  onclick="navOnclick(this)">Water</div>
+        </nav>
+      </div>
       <div>
         <input
           class="searchInp"
@@ -3787,7 +3810,7 @@
     <script>
       (function() {
         const container = document.getElementsByClassName("container");
-        container[0].style.height = screen.height + "px";
+        container[0].style.height = screen.height - 60 + "px";
       })();
     </script>
   </body>
